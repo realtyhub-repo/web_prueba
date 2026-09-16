@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Panel</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <div class="navbar">
+    <span class="brand">Mi App</span>
+    <button id="logoutBtn" class="btn-secondary">Cerrar sesión</button>
+  </div>
+
+  <div class="card">
+    <h1>¡Sesión iniciada!</h1>
+    <p class="subtitle">Estás autenticado correctamente</p>
+    <p class="center-text">
+      Access token guardado en esta pestaña. El refresh token vive en una
+      cookie httpOnly y se renueva solo cuando hace falta.
+    </p>
+  </div>
+
+  <script src="js/config.js"></script>
+  <script src="js/api.js"></script>
+  <script src="js/dashboard.js"></script>
+</body>
+</html>
