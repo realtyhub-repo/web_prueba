@@ -24,7 +24,9 @@ const TokenStore = {
 // mande/reciba la cookie httpOnly del refresh token.
 
 async function rawFetch(path, { method = "GET", body, auth = false } = {}) {
-  const headers = {};
+  const headers = {
+    "ngrok-skip-browser-warning": "true",   // 👈 agregas esta línea
+  };
   if (body !== undefined) headers["Content-Type"] = "application/json";
   if (auth) {
     const token = TokenStore.get();
