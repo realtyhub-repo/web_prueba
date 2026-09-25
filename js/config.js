@@ -3,7 +3,7 @@
 // ==============================
 
 // URL base del microservicio de auth
-const AUTH_BASE_URL = "https://mucic-lamellately-addyson.ngrok-free.dev/auth";
+const AUTH_BASE_URL = "https://api.realty-hub.site/auth";
 
 // Client ID de Google OAuth (reemplaza esto por el tuyo real)
 // Se obtiene en https://console.cloud.google.com/apis/credentials
